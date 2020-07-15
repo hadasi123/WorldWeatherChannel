@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.CitiesWeatherFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_of_cities"
+        android:name="com.shraifel.worldWeatherChannel.view.CitiesWeatherFragment"
+        app:layoutManager="LinearLayoutManager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.CitiesWeatherFragment"
+        tools:listitem="@layout/cities_list_item" >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</FrameLayout>
